@@ -1,0 +1,30 @@
+.Card{
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* color: white; */
+    border-radius: 10px ;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.35s;
+}
+
+.Button {
+    margin-left: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.Button:active {
+    background: darkcyan;
+}
+
+.true {
+    background-color: lightseagreen;
+}
+
+.false {
+    background-color: rgb(178, 32, 134);
+}
